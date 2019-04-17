@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The command line diff was a bit different to BeyondCompare that I have been used to using.
+I understand the value of doing a diff.
+I've done loads of them over the years.
+The command line diff is not as visually appealling as BeyondCompare
+It shows the left/old file above the right one
+it has a - sign for lines that were taken away
+and a + sign for lines that were added
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It will provide a better framework for finding old versions of files
+It can provide a better overview of how and when the code developed
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual commits allow more control to the developer.
+Commits can be made one per logical change.
+Automated commits may happen to often or not often enough to capture logical changes
+Automated changes may occur at a moment when the code would not run without error
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It depends on how closely the files are connected. 
+Usually a document in Google Docs is standalone, even if it refers to other documents it can be read with errors in the references to other docs.
+Where there are file dependencies that can prevent code from running.
+It makes sense to commit related files together so that a point-in-time state where the code was working can be recreated.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows a list of commits in time descending order
+adding the --stat option to git log provides a bit more information on the list
+git diff allows a comparison of 2 files referenced by their id's which can be found via the git log command discussed above
+
+How might using version control make you more confident to make changes that could break something?
+
+For a series of connected or dependent files I would not need to keep a separate note of where each one was at a particular time or state
+I would know I could go back to an earlier version not just of one file but a set of files that together were working
+I would have a framework for debugging and working back or forward from the problem or to the problem
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I could try using it for the code I wrote last week using text string matching algorithms to match our skills to O*Net skills
+Next time I do Kaggle I could try breaking out a large single pipeline into component files
