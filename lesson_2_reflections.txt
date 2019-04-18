@@ -27,5 +27,10 @@ having branches allows larger code experiments without disrupting a working stat
 
 How do the diagrams help you visualize the branch structure?
 
-I skipped this as I felt I got the idea of branches
-The branches the instructors drew were useful to show master, other branches, commits etc
+It was useful to visualize diverging branches and how they can be merged later
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+from the point of the merge there is reachability back along both branches
+it can merge a new feature back into the main branch
+it can merge a bug fix back into the main branch
