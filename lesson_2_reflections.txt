@@ -24,3 +24,8 @@ What are some situations when branches would be helpful in keeping your history 
 by using checkout on a branch not an id you don't have to remember id names
 checking out a branch always takes you to the latest state of the branch
 having branches allows larger code experiments without disrupting a working state
+
+How do the diagrams help you visualize the branch structure?
+
+I skipped this as I felt I got the idea of branches
+The branches the instructors drew were useful to show master, other branches, commits etc
