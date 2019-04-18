@@ -18,3 +18,9 @@ Then commit from the staging area to the repository. This empties the staging ar
 Then do another git add to put a separate logical commit in the staging area.
 use git diff without any arguments to compare the state of the working directory and the staging area
 use git diff --staged to compare staging area to repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+by using checkout on a branch not an id you don't have to remember id names
+checking out a branch always takes you to the latest state of the branch
+having branches allows larger code experiments without disrupting a working state
