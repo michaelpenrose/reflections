@@ -34,3 +34,8 @@ What is the result of merging two branches together? Why do we represent it in t
 from the point of the merge there is reachability back along both branches
 it can merge a new feature back into the main branch
 it can merge a bug fix back into the main branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is useful because git is pretty cautious only doing automatic merge where code in the same area has not been touched.
+Where code in the same vicinity has been touched git doesn't try to be too clever but requires human checking and resolving of any differences
