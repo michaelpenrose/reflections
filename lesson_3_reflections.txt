@@ -35,4 +35,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a branch gives an extra layer of protection to the master by making it one extra step removed from any bugs that might be introduced.
+    Making changes in a branch also allows different people to work on different areas of functionality with a little more independence of each other's work.
+    If everyone was working on the master branch then conflicts might have to be resolved at unexpected or inconvienient times.
+    Making changes directly in the master is not advisable generally but it can speed up the add-commit-push-merge process. 
